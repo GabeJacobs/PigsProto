@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A9C045A120F4FD9A00F2D3F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C045A020F4FD9A00F2D3F0 /* AppDelegate.m */; };
-		A9C045A420F4FD9A00F2D3F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C045A320F4FD9A00F2D3F0 /* ViewController.m */; };
 		A9C045A720F4FD9A00F2D3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C045A520F4FD9A00F2D3F0 /* Main.storyboard */; };
 		A9C045A920F4FD9B00F2D3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C045A820F4FD9B00F2D3F0 /* Assets.xcassets */; };
 		A9C045AC20F4FD9B00F2D3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C045AA20F4FD9B00F2D3F0 /* LaunchScreen.storyboard */; };
 		A9C045AF20F4FD9B00F2D3F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C045AE20F4FD9B00F2D3F0 /* main.m */; };
+		A9C045B720F4FE4900F2D3F0 /* TPBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C045B620F4FE4900F2D3F0 /* TPBaseNavigationViewController.m */; };
+		A9C045BA20F5128900F2D3F0 /* TPRecordSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C045B920F5128900F2D3F0 /* TPRecordSceneViewController.m */; };
+		A9C045BD20F5145200F2D3F0 /* TPReviewVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C045BC20F5145200F2D3F0 /* TPReviewVideoViewController.m */; };
+		F569FA24797CE53DCC1636B7 /* libPods-ThreePigsProto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79823DDD665917F0347A5861 /* libPods-ThreePigsProto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73B058F8924B2C9CEA9CF87C /* Pods-ThreePigsProto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreePigsProto.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreePigsProto/Pods-ThreePigsProto.release.xcconfig"; sourceTree = "<group>"; };
+		79823DDD665917F0347A5861 /* libPods-ThreePigsProto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThreePigsProto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E41D83B499D729A3DDB0555 /* Pods-ThreePigsProto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreePigsProto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreePigsProto/Pods-ThreePigsProto.debug.xcconfig"; sourceTree = "<group>"; };
 		A9C0459C20F4FD9A00F2D3F0 /* ThreePigsProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreePigsProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C0459F20F4FD9A00F2D3F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9C045A020F4FD9A00F2D3F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A9C045A220F4FD9A00F2D3F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9C045A320F4FD9A00F2D3F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9C045A620F4FD9A00F2D3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9C045A820F4FD9B00F2D3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C045AB20F4FD9B00F2D3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C045AD20F4FD9B00F2D3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9C045AE20F4FD9B00F2D3F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C045B520F4FE4900F2D3F0 /* TPBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPBaseNavigationViewController.h; path = "View Controllers/TPBaseNavigationViewController.h"; sourceTree = "<group>"; };
+		A9C045B620F4FE4900F2D3F0 /* TPBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TPBaseNavigationViewController.m; path = "View Controllers/TPBaseNavigationViewController.m"; sourceTree = "<group>"; };
+		A9C045B820F5128900F2D3F0 /* TPRecordSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPRecordSceneViewController.h; sourceTree = "<group>"; };
+		A9C045B920F5128900F2D3F0 /* TPRecordSceneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPRecordSceneViewController.m; sourceTree = "<group>"; };
+		A9C045BB20F5145200F2D3F0 /* TPReviewVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPReviewVideoViewController.h; path = "View Controllers/TPReviewVideoViewController.h"; sourceTree = "<group>"; };
+		A9C045BC20F5145200F2D3F0 /* TPReviewVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TPReviewVideoViewController.m; path = "View Controllers/TPReviewVideoViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F569FA24797CE53DCC1636B7 /* libPods-ThreePigsProto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		119F6E38C9CFF765229B2ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E41D83B499D729A3DDB0555 /* Pods-ThreePigsProto.debug.xcconfig */,
+				73B058F8924B2C9CEA9CF87C /* Pods-ThreePigsProto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EBDC2D06971981695FE4416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79823DDD665917F0347A5861 /* libPods-ThreePigsProto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9C0459320F4FD9900F2D3F0 = {
 			isa = PBXGroup;
 			children = (
 				A9C0459E20F4FD9A00F2D3F0 /* ThreePigsProto */,
 				A9C0459D20F4FD9A00F2D3F0 /* Products */,
+				119F6E38C9CFF765229B2ABE /* Pods */,
+				7EBDC2D06971981695FE4416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +90,12 @@
 			children = (
 				A9C0459F20F4FD9A00F2D3F0 /* AppDelegate.h */,
 				A9C045A020F4FD9A00F2D3F0 /* AppDelegate.m */,
-				A9C045A220F4FD9A00F2D3F0 /* ViewController.h */,
-				A9C045A320F4FD9A00F2D3F0 /* ViewController.m */,
+				A9C045B520F4FE4900F2D3F0 /* TPBaseNavigationViewController.h */,
+				A9C045B620F4FE4900F2D3F0 /* TPBaseNavigationViewController.m */,
+				A9C045B820F5128900F2D3F0 /* TPRecordSceneViewController.h */,
+				A9C045B920F5128900F2D3F0 /* TPRecordSceneViewController.m */,
+				A9C045BB20F5145200F2D3F0 /* TPReviewVideoViewController.h */,
+				A9C045BC20F5145200F2D3F0 /* TPReviewVideoViewController.m */,
 				A9C045A520F4FD9A00F2D3F0 /* Main.storyboard */,
 				A9C045A820F4FD9B00F2D3F0 /* Assets.xcassets */,
 				A9C045AA20F4FD9B00F2D3F0 /* LaunchScreen.storyboard */,
@@ -78,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9C045B220F4FD9B00F2D3F0 /* Build configuration list for PBXNativeTarget "ThreePigsProto" */;
 			buildPhases = (
+				3900C1F80520BE5C525CB8DC /* [CP] Check Pods Manifest.lock */,
 				A9C0459820F4FD9900F2D3F0 /* Sources */,
 				A9C0459920F4FD9900F2D3F0 /* Frameworks */,
 				A9C0459A20F4FD9900F2D3F0 /* Resources */,
@@ -136,13 +171,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3900C1F80520BE5C525CB8DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreePigsProto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9C0459820F4FD9900F2D3F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C045A420F4FD9A00F2D3F0 /* ViewController.m in Sources */,
+				A9C045BA20F5128900F2D3F0 /* TPRecordSceneViewController.m in Sources */,
+				A9C045BD20F5145200F2D3F0 /* TPReviewVideoViewController.m in Sources */,
 				A9C045AF20F4FD9B00F2D3F0 /* main.m in Sources */,
+				A9C045B720F4FE4900F2D3F0 /* TPBaseNavigationViewController.m in Sources */,
 				A9C045A120F4FD9A00F2D3F0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +339,7 @@
 		};
 		A9C045B320F4FD9B00F2D3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E41D83B499D729A3DDB0555 /* Pods-ThreePigsProto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +357,7 @@
 		};
 		A9C045B420F4FD9B00F2D3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B058F8924B2C9CEA9CF87C /* Pods-ThreePigsProto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

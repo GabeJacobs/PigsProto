@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TPBaseNavigationViewController.h
 //  ThreePigsProto
 //
 //  Created by mssngpeces on 7/10/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TPBaseNavigationViewController : UINavigationController
 
 @end
-
