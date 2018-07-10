@@ -1,16 +1,20 @@
 PODS:
   - LLSimpleCamera (5.0.0)
+  - LLVideoEditor (1.0.0)
 
 DEPENDENCIES:
   - LLSimpleCamera
+  - LLVideoEditor
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - LLSimpleCamera
+    - LLVideoEditor
 
 SPEC CHECKSUMS:
   LLSimpleCamera: 7175ccb81be71c83d79933089322eb662b1f0327
+  LLVideoEditor: f287ea4a532dade2b40ba042c80bf76a546325e5
 
-PODFILE CHECKSUM: 865ce257a52fb93a25af59e1affa9b5d2cdc9608
+PODFILE CHECKSUM: 4173d4cd95a74c7b45d200a3942d052e993a3735
 
 COCOAPODS: 1.5.3

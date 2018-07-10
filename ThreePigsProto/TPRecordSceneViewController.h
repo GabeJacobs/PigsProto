@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <LLSimpleCamera.h>
+#import <LLVideoEditor.h>
 
 @interface TPRecordSceneViewController : UIViewController
 
 @property (nonatomic, strong) LLSimpleCamera *camera;
+@property (nonatomic, strong) UIButton *record;
+
 @end

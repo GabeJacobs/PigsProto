@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreePigsProto/TPRecordSceneViewController.m"
-            timestampString = "552932574.722554"
+            timestampString = "552936425.63008"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-createVideoLayer:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

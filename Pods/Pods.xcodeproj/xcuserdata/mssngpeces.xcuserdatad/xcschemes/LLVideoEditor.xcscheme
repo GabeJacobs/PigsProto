@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57D3390F7AD32CEE838D3D87D0876307"
-               BlueprintName = "Pods-ThreePigsProto"
+               BlueprintIdentifier = "CAB3990B07EB77B44E2487489D90ABDA"
+               BlueprintName = "LLVideoEditor"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-ThreePigsProto.a">
+               BuildableName = "libLLVideoEditor.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
